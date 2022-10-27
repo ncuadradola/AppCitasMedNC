@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="360dp"
+        android:layout_height="25dp"
+        android:text="Cambia tu vida para mejor"
+        android:textAlignment="center"
+        android:textColor="@color/purple_700"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.47"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.117" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="360dp"
+        android:layout_height="25dp"
+        android:text="SALUD APP"
+        android:textAlignment="center"
+        android:textColor="@color/purple_700"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.313"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.042" />
+
+    <!--<TextView
+        android:id="@+id/textView100"
+        android:layout_width="354dp"
+        android:layout_height="74dp"
+        android:text="@string/text_one"
+        android:textAlignment="center"
+        android:textColor="@color/material_dynamic_neutral20"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.49"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.186" />
+-->
+
+    <Button
+        android:id="@+id/btnGeneral"
+        android:layout_width="360dp"
+        android:layout_height="78dp"
+        android:text="General"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.49"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.284" />
+
+
+     <Button
+         android:id="@+id/btnDermatologia"
+         android:layout_width="360dp"
+         android:layout_height="78dp"
+         android:text="dermatologia"
+         app:layout_constraintBottom_toBottomOf="parent"
+         app:layout_constraintEnd_toEndOf="parent"
+         app:layout_constraintHorizontal_bias="0.47"
+         app:layout_constraintStart_toStartOf="parent"
+         app:layout_constraintTop_toTopOf="parent"
+         app:layout_constraintVertical_bias="0.695" />
+
+     <Button
+         android:id="@+id/btnEspecialidades"
+         android:layout_width="360dp"
+         android:layout_height="78dp"
+         android:text="Especialidades"
+         app:layout_constraintBottom_toBottomOf="parent"
+         app:layout_constraintEnd_toEndOf="parent"
+         app:layout_constraintHorizontal_bias="0.49"
+         app:layout_constraintStart_toStartOf="parent"
+         app:layout_constraintTop_toTopOf="parent"
+         app:layout_constraintVertical_bias="0.422" />
+
+     <Button
+         android:id="@+id/btnPediatria"
+         android:layout_width="360dp"
+         android:layout_height="78dp"
+         android:text="Pediatria"
+         app:layout_constraintBottom_toBottomOf="parent"
+         app:layout_constraintEnd_toEndOf="parent"
+         app:layout_constraintHorizontal_bias="0.49"
+         app:layout_constraintStart_toStartOf="parent"
+         app:layout_constraintTop_toTopOf="parent"
+         app:layout_constraintVertical_bias="0.848" />
+
+     <Button
+         android:id="@+id/btnOdontologia"
+         android:layout_width="360dp"
+         android:layout_height="78dp"
+         android:text="Odontologia"
+         app:layout_constraintBottom_toBottomOf="parent"
+         app:layout_constraintEnd_toEndOf="parent"
+         app:layout_constraintHorizontal_bias="0.49"
+         app:layout_constraintStart_toStartOf="parent"
+         app:layout_constraintTop_toTopOf="parent"
+         app:layout_constraintVertical_bias="0.562" />
+
+     <Button
+         android:id="@+id/btnSalir"
+         style="@style/Widget.AppCompat.Button"
+         android:layout_width="96dp"
+         android:layout_height="73dp"
+         android:text="Salir"
+         app:layout_constraintBottom_toBottomOf="parent"
+         app:layout_constraintEnd_toEndOf="parent"
+         app:layout_constraintHorizontal_bias="0.05"
+         app:layout_constraintStart_toStartOf="parent"
+         app:layout_constraintTop_toTopOf="parent"
+         app:layout_constraintVertical_bias="0.975" />
+
+     <Button
+         android:id="@+id/btnServicios"
+         style="@style/Widget.AppCompat.Button"
+         android:layout_width="96dp"
+         android:layout_height="73dp"
+         android:text="Servicios"
+         app:layout_constraintBottom_toBottomOf="parent"
+         app:layout_constraintEnd_toEndOf="parent"
+         app:layout_constraintHorizontal_bias="0.66"
+         app:layout_constraintStart_toStartOf="parent"
+         app:layout_constraintTop_toTopOf="parent"
+         app:layout_constraintVertical_bias="0.975" />
+
+     <Button
+         android:id="@+id/btnUbicacion"
+         style="@style/Widget.AppCompat.Button"
+         android:layout_width="96dp"
+         android:layout_height="73dp"
+         android:text="Ubicación"
+         app:layout_constraintBottom_toBottomOf="parent"
+         app:layout_constraintEnd_toEndOf="parent"
+         app:layout_constraintHorizontal_bias="0.355"
+         app:layout_constraintStart_toStartOf="parent"
+         app:layout_constraintTop_toTopOf="parent"
+         app:layout_constraintVertical_bias="0.975" />
+
+     <Button
+         android:id="@+id/btnEspecialistas"
+         style="@style/Widget.AppCompat.Button"
+         android:layout_width="96dp"
+         android:layout_height="73dp"
+         android:text="Especialistas"
+         app:layout_constraintBottom_toBottomOf="parent"
+         app:layout_constraintEnd_toEndOf="parent"
+         app:layout_constraintHorizontal_bias="0.965"
+         app:layout_constraintStart_toStartOf="parent"
+         app:layout_constraintTop_toTopOf="parent"
+         app:layout_constraintVertical_bias="0.975" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
