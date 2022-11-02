@@ -5,17 +5,6 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <ImageView
-        android:id="@+id/imageView9"
-        android:layout_width="199dp"
-        android:layout_height="198dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.146"
-        app:srcCompat="@drawable/doctosmith" />
-
     <TextView
         android:id="@+id/textView11"
         android:layout_width="210dp"
@@ -30,33 +19,21 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.422" />
 
-    <TextView
-        android:id="@+id/textView14"
-        android:layout_width="391dp"
-        android:layout_height="41dp"
-        android:text="Medico General con experiencia de más de 5 años en consulta externa, con alto grado de atención y empatia. "
-        android:textAlignment="viewStart"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.668" />
-
     <Button
         android:id="@+id/btnSolConsulta"
-        android:layout_width="295dp"
-        android:layout_height="44dp"
+        android:layout_width="357dp"
+        android:layout_height="64dp"
         android:text="Solictar Consulta"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.883" />
+        app:layout_constraintVertical_bias="0.874" />
 
     <TextView
         android:id="@+id/textView13"
-        android:layout_width="117dp"
-        android:layout_height="21dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:text="Médico General"
         android:textColor="@color/whitelight"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -67,49 +44,9 @@
         app:layout_constraintVertical_bias="0.469" />
 
     <TextView
-        android:id="@+id/textView12"
-        android:layout_width="84dp"
-        android:layout_height="28dp"
-        android:text="Acerca de"
-        android:textColor="@color/black"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.03"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.597" />
-
-    <ImageView
-        android:id="@+id/imageView7"
-        android:layout_width="412dp"
-        android:layout_height="64dp"
-        android:scaleType="centerCrop"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0"
-        app:srcCompat="@drawable/top_app_bar" />
-
-    <ImageView
-        android:id="@+id/imageView10"
-        android:layout_width="412dp"
-        android:layout_height="64dp"
-        android:scaleType="centerCrop"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="1.0"
-        app:srcCompat="@drawable/down_app_bar" />
-
-    <TextView
         android:id="@+id/textView18"
-        android:layout_width="20dp"
-        android:layout_height="16dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:text="84"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -189,5 +126,14 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.503"
         app:srcCompat="@drawable/estrella" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/medico"
+        tools:layout_editor_absoluteX="-32dp"
+        tools:layout_editor_absoluteY="-16dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
