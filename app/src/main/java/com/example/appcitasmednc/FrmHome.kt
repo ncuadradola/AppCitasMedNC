@@ -12,8 +12,39 @@ class FrmHome : AppCompatActivity() {
 
         val botonGral = findViewById<Button>(R.id.btnGeneral)
         botonGral.setOnClickListener{
-            val llamaHome = Intent( this,Frmgeneral::class.java)
-            startActivity(llamaHome)
+            val llamageneral = Intent( this,Frmgeneral::class.java)
+            startActivity(llamageneral)
+        }
+
+        val botonmapa = findViewById<Button>(R.id.btnUbicacion)
+        botonmapa.setOnClickListener{
+            val llamamapas = Intent( this,FrmMaps::class.java)
+            startActivity(llamamapas)
+        }
+
+        val botonespecialistas = findViewById<Button>(R.id.btnEspecialistas)
+        botonespecialistas.setOnClickListener{
+            val llamaespe = Intent( this,FrmFiltro::class.java)
+            startActivity(llamaespe)
+        }
+
+        val botonservicios = findViewById<Button>(R.id.btnServicios)
+        botonservicios.setOnClickListener{
+            val llamasrv = Intent( this,FrmHome::class.java)
+            startActivity(llamasrv)
+        }
+
+        val botonsalir = findViewById<Button>(R.id.btnSalir)
+        botonservicios.setOnClickListener{
+            val llamasalir = Intent( this,MainActivity::class.java)
+            startActivity(llamasalir)
+        }
+
+        val botonOdont = findViewById<Button>(R.id.btnOdontologia)
+        botonOdont.setOnClickListener{
+            val llamaOdont = Intent( this,FrmOdontologia::class.java)
+            startActivity(llamaOdont)
         }
     }
 }
+

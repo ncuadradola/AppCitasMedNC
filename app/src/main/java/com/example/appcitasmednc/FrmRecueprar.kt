@@ -13,7 +13,7 @@ class FrmRecueprar : AppCompatActivity() {
         val botonISesion = findViewById<Button>(R.id.btnInicisioSes)
 
         botonISesion.setOnClickListener {
-            val llamaISesion = Intent(this, MainActivity::class.java)
+            val llamaISesion = Intent(this, FrmRegistro::class.java)
             startActivity(llamaISesion)
         }
     }
