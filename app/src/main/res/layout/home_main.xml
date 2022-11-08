@@ -58,7 +58,7 @@
         app:layout_constraintVertical_bias="0.89" />
 
     <Button
-        android:id="@+id/btnOdontologia"
+        android:id="@+id/btnOdontologiaH"
         style="@style/Widget.AppCompat.Button.Borderless"
         android:layout_width="346dp"
         android:layout_height="49dp"
@@ -71,7 +71,7 @@
         app:layout_constraintVertical_bias="0.708" />
 
     <Button
-        android:id="@+id/btnSalir"
+        android:id="@+id/btnSalirH"
         style="@style/Widget.AppCompat.Button.Borderless"
         android:layout_width="92dp"
         android:layout_height="55dp"

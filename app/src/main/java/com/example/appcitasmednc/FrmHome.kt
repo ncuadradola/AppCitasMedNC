@@ -34,13 +34,13 @@ class FrmHome : AppCompatActivity() {
             startActivity(llamasrv)
         }
 
-        val botonsalir = findViewById<Button>(R.id.btnSalir)
-        botonservicios.setOnClickListener{
+        val botonsalir = findViewById<Button>(R.id.btnSalirH)
+        botonsalir.setOnClickListener{
             val llamasalir = Intent( this,MainActivity::class.java)
             startActivity(llamasalir)
         }
 
-        val botonOdont = findViewById<Button>(R.id.btnOdontologia)
+        val botonOdont = findViewById<Button>(R.id.btnOdontologiaH)
         botonOdont.setOnClickListener{
             val llamaOdont = Intent( this,FrmOdontologia::class.java)
             startActivity(llamaOdont)
