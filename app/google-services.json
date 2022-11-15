@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "30981399706",
+    "project_id": "minticappnc",
+    "storage_bucket": "minticappnc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:30981399706:android:b4b9e8b06b69ba2b032b23",
+        "android_client_info": {
+          "package_name": "com.example.appcitasmednc"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "30981399706-a791ektalsn7augs35boc5uukpsbas8a.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.appcitasmednc",
+            "certificate_hash": "d31bd3a05d221a5d41e36f05ad4d29ae172b4798"
+          }
+        },
+        {
+          "client_id": "30981399706-rbkcm2us4ffr5o2dnerup6u523qkhaj9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCHuBcyGRDCutonkzKB34txCWTQX1fFrzs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "30981399706-rbkcm2us4ffr5o2dnerup6u523qkhaj9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
