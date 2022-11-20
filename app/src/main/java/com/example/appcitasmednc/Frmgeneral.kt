@@ -24,7 +24,7 @@ class Frmgeneral : AppCompatActivity() {
 
         val botonubiG = findViewById<Button>(R.id.btnUbicacionG)
         botonubiG.setOnClickListener{
-            val llamaUbica = Intent( this,FrmMaps::class.java)
+            val llamaUbica = Intent( this,MapsActivity::class.java)
             startActivity(llamaUbica)
         }
 

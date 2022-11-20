@@ -12,7 +12,7 @@ class FrmFiltro : AppCompatActivity() {
 
         val botonmapaF = findViewById<Button>(R.id.btnUbicacionF)
         botonmapaF.setOnClickListener{
-            val llamaHome = Intent( this,FrmMaps::class.java)
+            val llamaHome = Intent( this,MapsActivity::class.java)
             startActivity(llamaHome)
         }
 

@@ -18,7 +18,7 @@ class FrmHome : AppCompatActivity() {
 
         val botonmapa = findViewById<Button>(R.id.btnUbicacion)
         botonmapa.setOnClickListener{
-            val llamamapas = Intent( this,FrmMaps::class.java)
+            val llamamapas = Intent( this,MapsActivity::class.java)
             startActivity(llamamapas)
         }
 
