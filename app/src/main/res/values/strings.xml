@@ -1,5 +1,7 @@
 <resources>
     <string name="app_name">AppCitasMedNC</string>
     <string name="text_one">Agenda una cita y te ayudaremos con el problema al que te enfrentas.</string>
+    <string name="tetx_two">Email</string>
     <string name="title_activity_maps">MapsActivity</string>
+    <string name="texto_tres">Contrase\u00F1a</string>
 </resources>
