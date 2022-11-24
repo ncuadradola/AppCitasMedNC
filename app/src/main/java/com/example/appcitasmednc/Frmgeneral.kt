@@ -39,5 +39,23 @@ class Frmgeneral : AppCompatActivity() {
             val llamaServ = Intent( this,FrmFiltro::class.java)
             startActivity(llamaServ)
         }
+
+        val botonDocJes = findViewById<Button>(R.id.btnDocJes)
+        botonDocJes.setOnClickListener{
+            val llamaJes = Intent( this,FrmDoctorJessica::class.java)
+            startActivity(llamaJes)
+        }
+
+        val botonDocSam = findViewById<Button>(R.id.btnDocSm)
+        botonDocSam.setOnClickListener{
+            val llamaSam = Intent( this,FrmDoctorSamantha::class.java)
+            startActivity(llamaSam)
+        }
+
+        val botonDocJho = findViewById<Button>(R.id.btnDocJh)
+        botonDocJho.setOnClickListener{
+            val llamaJho = Intent( this,FrmDoctorJhonathan::class.java)
+            startActivity(llamaJho)
+        }
     }
 }

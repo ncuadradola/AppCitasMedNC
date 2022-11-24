@@ -53,6 +53,9 @@
         <activity android:name=".FrmOdontologia" />
         <activity android:name=".FrmMaps" />
         <activity android:name=".FrmFiltro" />
+        <activity android:name=".FrmDoctorJessica" />
+        <activity android:name=".FrmDoctorSamantha" />
+        <activity android:name=".FrmDoctorJhonathan" />
     </application>
 
 </manifest>
