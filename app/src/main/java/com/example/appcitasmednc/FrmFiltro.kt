@@ -12,32 +12,50 @@ class FrmFiltro : AppCompatActivity() {
 
         val botonmapaF = findViewById<Button>(R.id.btnUbicacionF)
         botonmapaF.setOnClickListener{
-            val llamaHome = Intent( this,MapsActivity::class.java)
-            startActivity(llamaHome)
+            val llamaMp = Intent( this,MapsActivity::class.java)
+            startActivity(llamaMp)
         }
 
         val botonespecialistasF = findViewById<Button>(R.id.btnEspecialistasF)
         botonespecialistasF.setOnClickListener{
-            val llamaHome = Intent( this,FrmFiltro::class.java)
-            startActivity(llamaHome)
+            val llamaEsp = Intent( this,FrmFiltro::class.java)
+            startActivity(llamaEsp)
         }
 
         val botonserviciosF = findViewById<Button>(R.id.btnServiciosF)
         botonserviciosF.setOnClickListener{
-            val llamaHome = Intent( this,FrmHome::class.java)
-            startActivity(llamaHome)
+            val llamaSrv = Intent( this,FrmHome::class.java)
+            startActivity(llamaSrv)
         }
 
         val botonsalirF = findViewById<Button>(R.id.btnSalirF)
         botonsalirF.setOnClickListener{
-            val llamaHome = Intent( this,MainActivity::class.java)
-            startActivity(llamaHome)
+            val llamasalir = Intent( this,MainActivity::class.java)
+            startActivity(llamasalir)
         }
 
         val botonDoctorF = findViewById<Button>(R.id.btnDoctorF)
         botonDoctorF.setOnClickListener{
-            val llamaHome = Intent( this,FrmDoctor::class.java)
-            startActivity(llamaHome)
+            val llamaDr = Intent( this,FrmDoctor::class.java)
+            startActivity(llamaDr)
+        }
+
+        val botonDoctorJ = findViewById<Button>(R.id.btnDoctorJess)
+        botonDoctorJ.setOnClickListener{
+            val llamaJ = Intent( this,FrmDoctorJessica::class.java)
+            startActivity(llamaJ)
+        }
+
+        val botonDoctorJh = findViewById<Button>(R.id.btnDoctorJho)
+        botonDoctorJh.setOnClickListener{
+            val llamaJh = Intent( this,FrmDoctorJhonathan::class.java)
+            startActivity(llamaJh)
+        }
+
+        val botonDoctorSm = findViewById<Button>(R.id.btnDoctorSama)
+        botonDoctorSm.setOnClickListener{
+            val llamaSm = Intent( this,FrmDoctorSamantha::class.java)
+            startActivity(llamaSm)
         }
     }
 }
