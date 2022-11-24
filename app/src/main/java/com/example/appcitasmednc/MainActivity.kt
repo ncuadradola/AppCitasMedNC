@@ -52,20 +52,45 @@ class MainActivity : AppCompatActivity() {
 //        }
     }
 
+//    private fun login(){
+//        val email = txtEmail.text.toString()
+//        val pass = txtPass.text.toString()
+//
+//        auth.signInWithEmailAndPassword (email,pass).addOnCompleteListener(this){
+//            if(it.isSuccessful){
+//                //val botonHome = findViewById<Button>(R.id.btnIngresar)
+//                //botonHome.setOnClickListener{
+//                    val llamaHome = Intent( this,FrmHome::class.java)
+//                    startActivity(llamaHome)
+//                //}
+//            }
+//            else
+//                Toast.makeText(this,"Algo Falló",Toast.LENGTH_LONG).show()
+//        }
+//    }
+
     private fun login(){
         val email = txtEmail.text.toString()
         val pass = txtPass.text.toString()
 
-        auth.signInWithEmailAndPassword (email,pass).addOnCompleteListener(this){
-            if(it.isSuccessful){
-                val botonHome = findViewById<Button>(R.id.btnIngresar)
-                botonHome.setOnClickListener{
-                    val llamaHome = Intent( this,FrmHome::class.java)
+        println("Si entre al login")
+        println(email)
+        println(pass)
+        try {
+            auth.signInWithEmailAndPassword(email, pass).addOnCompleteListener(this) {
+                if (it.isSuccessful) {
+                    //val botonHome = findViewById<Button>(R.id.btnIngresar)
+                    //botonHome.setOnClickListener{
+                    val llamaHome = Intent(this, FrmHome::class.java)
                     startActivity(llamaHome)
+                    //}
                 }
+
             }
-            else
-                Toast.makeText(this,"Algo Falló",Toast.LENGTH_LONG).show()
         }
-    }
+        catch (e: Exception ){
+                println(e.printStackTrace())
+            Toast.makeText(this,"Estoy en el catch",Toast.LENGTH_LONG).show()
+            }
+        }
 }
